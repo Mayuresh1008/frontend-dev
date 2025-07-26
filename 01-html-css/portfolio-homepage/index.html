@@ -13,10 +13,9 @@
 
         <link rel="icon" type="image/png" href="assets/favicon.ico">
 
+        <link rel="stylesheet" href="css/style.css">
         <style>
-            html {
-                scroll-behavior: smooth;
-            }
+            
         </style>
     </head>
     <body>
@@ -26,7 +25,7 @@
         <h3>Learning HTML, CSS</h3>
         
         <nav>
-            <ul style="list-style: none; display: flex; gap: 20px; padding: 0;">
+            <ul class="navbar">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -36,11 +35,11 @@
         <img 
         src="assets/profile-pic.jpg" 
         alt="Mayuresh Patil's Profile Photo" 
-        style="width: 200px; height:auto; display: block; margin: 0 auto;"
+        class="hero-image"
         >
         </section>
 
-        <section id="about" style="padding: 20px;">
+        <section id="about" class="page-section">
             <h2>About Me</h2>
             <p>
                 Hello! I'm <strong>Mayuresh Patil</strong>, a passionate aspiring frontend developer. <br><br>
@@ -49,9 +48,9 @@
             </p>
         </section>
 
-        <section id="contact" style="padding: 20px;">
+        <section id="contact" class="contact-section">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:themayureshpatil@gmail.com"></a></p>
+            <p>Email: <a href="mailto:themayureshpatil@gmail.com">themayureshpatil@gmail.com</a></p>
             <p>Phone: <a href="tel:+917202952712">+91 7202952712</a></p>
             <p>Location: Vadodara, Gujarat, India</p>
         </section>
@@ -83,7 +82,7 @@
             <li>Committing to the github repo</li>     
         </ol>
 
-        <footer style="text-align: center; padding: 20px; background-color: #f0f0f0;">
+        <footer class="site-footer">
             <p>&copy; 2025 Mayuresh Patil. All rights reserved.</p>
         </footer>
     </body>
