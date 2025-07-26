@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 200px; 
+    height:auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.page-section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.contact-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
