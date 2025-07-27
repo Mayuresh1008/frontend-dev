@@ -11,6 +11,34 @@ body {
     padding: 0;
 }
 
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #222;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
 p a {
     color:#007bff;
     text-decoration: none;
@@ -31,8 +59,18 @@ h1, h2, h3 {
 }
 
 p {
-    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+    max-width: 750px;
 }
+
+ul, ol {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
 
 /* a, a:visited {
     color: #007bff;
@@ -83,8 +121,34 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+
+/* Section Style Template */
+section {
+    padding: 60px 20px;
+    margin: 0;
+}
+
+/* About Section */
+#about {
+    background-color: #f7f7f7; 
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e9ecef;
+}
+
+/* Footer */
 .site-footer {
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #222;
+    color: #fff;
+}
+
+section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
