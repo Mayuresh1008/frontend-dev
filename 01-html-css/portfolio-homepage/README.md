@@ -37,7 +37,7 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
 > Link coming soon...
 
 ## 📂 Folder Structure
-
+```yaml
 portfolio-homepage/
 │
 ├── index.html
@@ -47,7 +47,7 @@ portfolio-homepage/
 │ ├── favicon.ico
 │ └── profile-pic.jpg
 └── README.md
-
+```
 
 ## 📌 Project Status
 
