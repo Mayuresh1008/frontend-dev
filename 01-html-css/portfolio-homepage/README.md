@@ -8,3 +8,12 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
 - CSS3 (Typography, Flexbox, Positioning, Media Queries)
 - Google Fonts (Poppins)
 - Favicon Integration
+
+## 📱 Features
+
+- Smooth scroll navigation bar
+- Responsive layout for desktop and mobile
+- About and Contact sections
+- Semantic HTML for accessibility
+- Clean footer with copyright
+- Organized project structure with external CSS
