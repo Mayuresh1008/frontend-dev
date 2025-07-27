@@ -36,3 +36,31 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
 
 > Link coming soon...
 
+## 📂 Folder Structure
+
+portfolio-homepage/
+│
+├── index.html
+├── css/
+│ └── style.css
+├── assets/
+│ ├── favicon.ico
+│ └── profile-pic.jpg
+└── README.md
+
+
+## 📌 Project Status
+
+✅ Completed  
+🎯 Core focus: structure, layout, responsiveness
+
+---
+
+### 💡 Author
+
+**Mayuresh Patil**  
+📧 themayureshpatil@gmail.com  
+🔗 [GitHub Profile](https://github.com/Mayuresh1008)
+🔗 [Linkedin Profile](https://linkedin/in/themayureshpatil)
+🔗 [Twiiter Profile](https://x.com/impatilmayuresh)
+
