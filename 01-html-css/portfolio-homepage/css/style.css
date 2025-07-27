@@ -71,6 +71,20 @@ ul, ol {
     margin-bottom: 20px;
 }
 
+ul li::marker {
+    color: #007bff;
+    font-size: 18px;
+}
+
+ol li::marker {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
 
 /* a, a:visited {
     color: #007bff;
