@@ -21,7 +21,7 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
 ## 📸 Preview
 
 <p align="center">
-  <img src="assets/portfolio-homepage.gif" alt="Portfolio Demo" width="500" height="600"/>
+  <img src="assets/portfolio-homepage.gif" alt="Portfolio Demo" width="500"/>
 </p>
 
 
