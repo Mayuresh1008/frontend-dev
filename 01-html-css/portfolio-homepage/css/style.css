@@ -155,7 +155,7 @@ section h2 {
     text-decoration: underline;
 }
 
-/* === Footer === */
+/* === Footer Styles === */
 .site-footer {
     background-color: #222;
     padding: 20px;
@@ -167,6 +167,7 @@ section h2 {
     font-size: 15px;
 }
 
+/* Responsive Styles (768px) */
 @media (max-width: 768px) {
     body {
         font-size: 15px;
@@ -215,6 +216,7 @@ section h2 {
     }
 }
 
+/* Responsive Styles (480px) */
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 2rem;
