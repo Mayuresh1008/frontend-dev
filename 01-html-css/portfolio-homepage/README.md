@@ -24,4 +24,15 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
   <img src="assets/portfolio-homepage.gif" alt="Portfolio Demo" width="500"/>
 </p>
 
+## 🧠 What I Learned
+
+- HTML tags, headings, lists, links
+- Flexbox and layout control
+- Media queries and mobile-first design
+- Linking fonts, favicon, and external stylesheets
+- SEO basics: title, meta description, keywords
+
+## 🚀 Live Demo
+
+> Link coming soon...
 
