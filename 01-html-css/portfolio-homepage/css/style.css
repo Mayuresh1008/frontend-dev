@@ -1,32 +1,33 @@
+/* === Base Styles === */
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #222;
-    line-height: 1.6;
     font-size: 16px;
+    line-height: 1.6;
+    color: #222;
     margin: 0;
     padding: 0;
 }
 
+/* === Typography === */
 h1, h2, h3 {
     font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 h1 {
     font-size: 3rem;
     color: #222;
-    text-align: center;
     margin-top: 30px;
 }
 
 h2 {
     font-size: 2.2rem;
     color: #444;
-    text-align: center;
     margin-bottom: 15px;
 }
 
@@ -34,18 +35,26 @@ h3 {
     font-size: 1.5rem;
     font-weight: 500;
     color: #555;
-    text-align: center;
     margin-bottom: 10px;
     font-style: italic;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+    max-width: 750px;
+}
+
+/* === Links === */
 p a {
-    color:#007bff;
+    color: #007bff;
     text-decoration: none;
 }
 
 p a:hover {
-    color:#ff5733;
+    color: #ff5733;
     text-decoration: underline;
 }
 
@@ -53,19 +62,7 @@ a:hover {
     transition: color 0.3s ease;
 }
 
-h1, h2, h3 {
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-p {
-    line-height: 1.8;
-    font-size: 18px;
-    color: #444;
-    margin-bottom: 20px;
-    max-width: 750px;
-}
-
+/* === Lists === */
 ul, ol {
     padding-left: 40px;
     margin-bottom: 20px;
@@ -86,39 +83,62 @@ li {
     font-size: 17px;
 }
 
-/* a, a:visited {
-    color: #007bff;
-}
-
-a:hover, a:focus {
-    color: #ff5733;
-} */
-
+/* === Navigation Bar === */
 .navbar {
     list-style: none;
     display: flex;
-    gap: 20px;
-    padding: 10px 0;
-    background-color: #333;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+    margin: 0;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
 
+/* === Hero Image === */
 .hero-image {
-    width: 200px; 
-    height:auto; 
-    display: block; 
+    width: 200px;
+    height: auto;
+    display: block;
     margin: 0 auto;
+}
+
+/* === Section Styling === */
+section {
+    padding: 60px 20px;
+    margin: 0;
+}
+
+section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .page-section {
-    padding: 60px 20px;
     max-width: 900px;
     margin: 0 auto;
+}
+
+/* === About Section === */
+#about {
+    background-color: #f7f7f7;
+}
+
+/* === Contact Section === */
+#contact {
+    background-color: #e9ecef;
 }
 
 .contact-section {
@@ -135,34 +155,18 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
-
-/* Section Style Template */
-section {
-    padding: 60px 20px;
-    margin: 0;
-}
-
-/* About Section */
-#about {
-    background-color: #f7f7f7; 
-}
-
-/* Contact Section */
-#contact {
-    background-color: #e9ecef;
-}
-
-/* Footer */
+/* === Footer === */
 .site-footer {
-    text-align: center;
-    padding: 20px;
     background-color: #222;
-    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-section h2 {
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+.site-footer p {
+    color: #f0f0f0;
+    font-size: 15px;
 }
+
+
+
+
