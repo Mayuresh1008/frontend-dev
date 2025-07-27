@@ -84,6 +84,15 @@ li {
 }
 
 /* === Navigation Bar === */
+
+/* Apply sticky to the nav itself */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #111;
+}
+
 .navbar {
     list-style: none;
     display: flex;
@@ -91,10 +100,6 @@ li {
     gap: 30px;
     padding: 15px 0;
     margin: 0;
-    background-color: #111;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 .navbar a {
@@ -169,6 +174,10 @@ section h2 {
 
 /* Responsive Styles (768px) */
 @media (max-width: 768px) {
+    html {
+        scroll-padding-top: 100px;
+    }
+    
     body {
         font-size: 15px;
         padding: 10px;
