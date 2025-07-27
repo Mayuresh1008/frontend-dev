@@ -17,3 +17,8 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
 - Semantic HTML for accessibility
 - Clean footer with copyright
 - Organized project structure with external CSS
+
+## 📸 Preview
+
+![Video](assets/portfolio-homepage.mp4)
+
