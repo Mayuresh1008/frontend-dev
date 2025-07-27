@@ -20,5 +20,5 @@ This is a beginner-friendly portfolio homepage created using **HTML5** and **CSS
 
 ## 📸 Preview
 
-![Video](assets/portfolio-homepage.mp4)
+![Video](assets/portfolio-homepage-recording.mp4)
 
